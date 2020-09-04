@@ -1,0 +1,6 @@
+framework module EMSegmentKit {
+  umbrella header "EMSegmentKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
