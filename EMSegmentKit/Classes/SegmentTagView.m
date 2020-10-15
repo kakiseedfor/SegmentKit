@@ -259,8 +259,6 @@ NSHashTable<SegmentTagView *> *SegmentTagViews = nil;
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-//    NSString *text = [self stringForItemAtIndexPath:indexPath.row];
-//    CGSize size = [text boundingRectWithSize:CGSizeMake(CGRectGetWidth(collectionView.bounds), CGFLOAT_MAX) options:NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName : TEXT_FONT_16} context:NULL].size;
     return CGSizeMake(self.sizeArray[indexPath.row].floatValue, CGRectGetHeight(collectionView.bounds));
 }
 
