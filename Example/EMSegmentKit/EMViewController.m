@@ -11,8 +11,21 @@
 #import <EMSegmentKit/SegmentTagView.h>
 #import <EMSegmentKit/NestScrollView.h>
 #import <EMSegmentKit/NestTableView.h>
+#import <EMSegmentKit/AnimationLayer.h>
 #import <Masonry/Masonry.h>
 #import "EMViewController.h"
+
+@interface EMLayerView : UIView
+
+@end
+
+@implementation EMLayerView
+
++ (Class)layerClass{
+    return AnimationLayer.class;
+}
+
+@end
 
 #pragma mark - EMScrollSegmentView
 
@@ -393,7 +406,7 @@
         UILabel *label = [[UILabel alloc] init];
         label.text = @"NestScrollView";
         
-        UIView *tempView= [[UIView alloc] init];
+        EMLayerView *tempView= [[EMLayerView alloc] init];
         tempView.backgroundColor = UIColor.redColor;
         [tempView addSubview:label];
         [label mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -458,6 +471,10 @@
     _viewArray = @[[[EMCollectSegmentView alloc] init]];
     [_segmentTagView reloadData];
     [_segmentContainView reloadData];
+}
+
+- (IBAction)composeAction:(id)sender {
+    [(AnimationLayer *)_contentView.layer setHidden:!_contentView.layer.isHidden animation:YES];
 }
 
 #pragma mark - SegmentTagProtocol
