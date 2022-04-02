@@ -1,0 +1,15 @@
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'EMSegmentKit_Example' do
+  pod 'EMSegmentKit', :path => '../'
+  pod 'Masonry'
+
+  target 'EMSegmentKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end

@@ -1,0 +1,31 @@
+PODS:
+  - EMSegmentKit (0.1.0)
+  - Expecta (1.0.6)
+  - Masonry (1.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - EMSegmentKit (from `../`)
+  - Expecta
+  - Masonry
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Masonry
+    - Specta
+
+EXTERNAL SOURCES:
+  EMSegmentKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EMSegmentKit: 40367b0c7c0b9c0985c2bc7df4df3d94aacd71b7
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: c8d0f11aacc214f3127f73774c795a7fb908b183
+
+COCOAPODS: 1.6.1
