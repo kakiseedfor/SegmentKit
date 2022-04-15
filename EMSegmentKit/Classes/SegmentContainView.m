@@ -16,7 +16,7 @@ extern NSHashTable<SegmentTagView *> *SegmentTagViews;
 
 @interface SegmentContainCollectionView : UICollectionView<UIGestureRecognizerDelegate, CALayerDelegate>
 @property (strong, nonatomic) NSIndexPath *indexPath;
-@property (copy, nonatomic) void(^displayLayerCallBack)(void);
+@property (weak, nonatomic) id<CALayerDelegate> layerDelegate;
 @property (nonatomic) UICollectionViewScrollPosition scrollPosition;
 @property (nonatomic) BOOL animated;
 
@@ -80,10 +80,9 @@ extern NSHashTable<SegmentTagView *> *SegmentTagViews;
         return;
     }
     
+    [_layerDelegate displayLayer:layer];
+    
     [super scrollToItemAtIndexPath:_indexPath atScrollPosition:_scrollPosition animated:_animated];
-    _animated ?: dispatch_async(dispatch_get_main_queue(), ^{
-        !self.displayLayerCallBack ?: self.displayLayerCallBack();
-    });
 }
 
 @end
@@ -116,6 +115,7 @@ extern NSHashTable<SegmentTagView *> *SegmentTagViews;
             tempCollection.translatesAutoresizingMaskIntoConstraints = NO;
             tempCollection.showsHorizontalScrollIndicator = NO;
             tempCollection.backgroundColor = UIColor.whiteColor;
+            tempCollection.layerDelegate = self;
             tempCollection.pagingEnabled = YES;
             tempCollection.dataSource = self;
             tempCollection.delegate = self;
@@ -124,11 +124,6 @@ extern NSHashTable<SegmentTagView *> *SegmentTagViews;
             
             tempCollection;
         });
-        __weak typeof(self) weakSelf = self;
-        _collectionView.displayLayerCallBack = ^(){
-            __strong typeof(weakSelf) self = weakSelf;
-            [self scrollViewDidEndScrolling:self.collectionView animated:self.collectionView.animated];
-        };
         
         [self setUpContentView];
         [self scrollToItemAtIndexPath:0];
@@ -182,7 +177,7 @@ extern NSHashTable<SegmentTagView *> *SegmentTagViews;
 #pragma mark - CALayerDelegate
 
 - (void)displayLayer:(CALayer *)layer{
-    [self matchSegmentTagView];
+    [self.layer isEqual:layer] ? [self matchSegmentTagView] : [self scrollViewDidEndScrolling:self.collectionView animated:self.collectionView.animated];
 }
 
 #pragma mark - UICollectionViewDelegate, UICollectionViewDataSource
