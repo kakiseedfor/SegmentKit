@@ -6,7 +6,7 @@
 //  Copyright © 2019年 taojinzhe. All rights reserved.
 //
 
-#import "UIScrollView+Segment.h"
+#import "UIView+Segment.h"
 #import "NestCollectionView.h"
 #import "NestViewHeader.h"
 #import "NestScrollView.h"

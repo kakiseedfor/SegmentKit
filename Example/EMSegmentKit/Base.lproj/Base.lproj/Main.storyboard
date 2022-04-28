@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mJf-rS-cYq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Hzj-Rw-3X3">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="GJJ-rc-6K5">
+            <objects>
+                <tabBarController id="Hzj-Rw-3X3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xnz-RN-IOe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mJf-rS-cYq" kind="relationship" relationship="viewControllers" id="CWC-ls-hEd"/>
+                        <segue destination="fnX-cT-Cqk" kind="relationship" relationship="viewControllers" id="h1W-zG-xBT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDU-FX-FbL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1489" y="431"/>
+        </scene>
+        <!--tab One-->
         <scene sceneID="9Dp-yd-TXM">
             <objects>
                 <navigationController id="mJf-rS-cYq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="tab One" image="pencil" catalog="system" id="f41-Yd-BCq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IUP-ZD-ryc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -74,7 +93,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1R0-uD-a8s">
-                                <rect key="frame" x="152.5" y="318.5" width="70" height="30"/>
+                                <rect key="frame" x="64" y="318.5" width="70" height="30"/>
                                 <state key="normal" title="Next Click"/>
                                 <connections>
                                     <segue destination="whP-gf-Uak" kind="push" id="UxO-8a-MoQ"/>
@@ -83,8 +102,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1R0-uD-a8s" firstAttribute="centerX" secondItem="qZ3-f0-dKC" secondAttribute="centerX" id="6sk-Na-fLa"/>
-                            <constraint firstItem="1R0-uD-a8s" firstAttribute="centerY" secondItem="qZ3-f0-dKC" secondAttribute="centerY" id="V8M-Pj-XY0"/>
+                            <constraint firstItem="1R0-uD-a8s" firstAttribute="centerY" secondItem="qZ3-f0-dKC" secondAttribute="centerY" id="4Io-na-mZg"/>
+                            <constraint firstItem="1R0-uD-a8s" firstAttribute="leading" secondItem="qZ3-f0-dKC" secondAttribute="leading" constant="64" id="NsH-46-qw2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ksT-7z-jl0"/>
@@ -93,8 +112,29 @@
             </objects>
             <point key="canvasLocation" x="217" y="431"/>
         </scene>
+        <!--tab Two-->
+        <scene sceneID="hPx-pO-u9m">
+            <objects>
+                <viewController id="fnX-cT-Cqk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kj4-0y-uN7"/>
+                        <viewControllerLayoutGuide type="bottom" id="XbV-lr-Dui"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d3n-4s-GIE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="tab Two" image="scribble" catalog="system" id="Efn-v0-bqO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Il3-SJ-ttd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1490" y="1186"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="scribble" catalog="system" width="128" height="118"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

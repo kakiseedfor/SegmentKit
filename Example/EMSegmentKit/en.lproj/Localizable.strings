@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  EMSegmentKit
+
+  Created by kaki Yen on 2022/4/27.
+  Copyright © 2022 kakiYen. All rights reserved.
+*/
+
+"collectionView_text" = "CollectionView";
+"scorllView_text" = "ScorllView";
+"tableView_text" = "TableView";
+"number." = "NO.%ld";

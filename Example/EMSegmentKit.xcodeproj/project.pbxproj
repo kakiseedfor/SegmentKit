@@ -22,9 +22,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AB25B4A198C57378888265A6 /* libPods-EMSegmentKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DB54AF1F4D7507E5281181 /* libPods-EMSegmentKit_Example.a */; };
 		EC4309B327F7FF9400AD136F /* RicePaddy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC4309B227F7FF9400AD136F /* RicePaddy.JPG */; };
+		ECEBB1C928192E850003B6D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECEBB1CB28192E850003B6D0 /* Localizable.strings */; };
+		ECEBB1CD2819303E0003B6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEBB1CF2819303E0003B6D0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CA9909F51187856AC07D4EA /* libPods-EMSegmentKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMSegmentKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB3C08A683887673D751409 /* Pods-EMSegmentKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMSegmentKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-EMSegmentKit_Example/Pods-EMSegmentKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A799B8A800CF2DCA38B998CD /* EMSegmentKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EMSegmentKit.podspec; path = ../EMSegmentKit.podspec; sourceTree = "<group>"; };
@@ -69,6 +69,12 @@
 		C2DB54AF1F4D7507E5281181 /* libPods-EMSegmentKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMSegmentKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42B75524471987FAE1BA885 /* Pods-EMSegmentKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMSegmentKit_Example.release.xcconfig"; path = "Target Support Files/Pods-EMSegmentKit_Example/Pods-EMSegmentKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC4309B227F7FF9400AD136F /* RicePaddy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RicePaddy.JPG; sourceTree = "<group>"; };
+		EC5C485528193314000E8EBC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		EC5C48562819331C000E8EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EC5C4868281A7BCD000E8EBC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECEBB1CA28192E850003B6D0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ECEBB1CC28192E870003B6D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ECEBB1D6281931480003B6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,9 +142,9 @@
 			children = (
 				6003F59C195388D20070C39A /* EMAppDelegate.h */,
 				6003F59D195388D20070C39A /* EMAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* EMViewController.h */,
 				6003F5A6195388D20070C39A /* EMViewController.m */,
+				ECEBB1CF2819303E0003B6D0 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -152,9 +158,10 @@
 			children = (
 				EC4309B227F7FF9400AD136F /* RicePaddy.JPG */,
 				6003F595195388D20070C39A /* EMSegmentKit-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* EMSegmentKit-Prefix.pch */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				ECEBB1CB28192E850003B6D0 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -266,6 +273,7 @@
 				English,
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -283,7 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				ECEBB1CD2819303E0003B6D0 /* Main.storyboard in Resources */,
+				ECEBB1C928192E850003B6D0 /* Localizable.strings in Resources */,
 				EC4309B327F7FF9400AD136F /* RicePaddy.JPG in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -382,6 +391,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
+				EC5C4868281A7BCD000E8EBC /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,6 +410,26 @@
 				71719F9E1E33DC2100824A3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEBB1CB28192E850003B6D0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEBB1CA28192E850003B6D0 /* ar */,
+				ECEBB1CC28192E870003B6D0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		ECEBB1CF2819303E0003B6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEBB1D6281931480003B6D0 /* Base */,
+				EC5C485528193314000E8EBC /* ar */,
+				EC5C48562819331C000E8EBC /* en */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

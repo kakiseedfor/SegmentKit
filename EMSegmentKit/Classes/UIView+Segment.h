@@ -1,5 +1,5 @@
 //
-//  UIScrollView+Segment.h
+//  UIView+Segment.h
 //  EMSegmentKit
 //
 //  Created by HDB-JSKF-004 on 2020/7/6.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIScrollView (Segment)
+@interface UIView (Segment)
 
 - (UIViewController *)currentVC;
 

@@ -74,7 +74,7 @@
 		739001B2F774513C62E0ECC48C2CEA4C /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC55D1FDBAFC75555C27EB4FF6CCB73 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75451C0B426499CD657CFD01DCEDAD67 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 102FAC5B7383579285F6AF47DC80B275 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		771BCB671D281B33A3344CFC06534F8E /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD8A54B1600468EC3A0F79D7B2A1A11 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7A1A48CBD6D8B5C98CF1E681750A149A /* UIScrollView+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = A1230604385BEC546CF434B8B984D27E /* UIScrollView+Segment.m */; };
+		7A1A48CBD6D8B5C98CF1E681750A149A /* UIView+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = A1230604385BEC546CF434B8B984D27E /* UIView+Segment.m */; };
 		7BEE6841075678AB94AC2B15D987BE0E /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = F3421E48DDF2B72696791EDCDA7FAFFD /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7C17EEF555443262D364592C54570B6F /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 227CBBCA425483693BE23BF785FC3267 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7CC505B9390A980135A5964FE2716673 /* NestViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B288A2D3BA831DF3530B758E3FF95CB1 /* NestViewHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -116,7 +116,7 @@
 		B3801B12560500618B60D8BFD55CEBDE /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD9FC8065397D0778C2C63770D43685 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B58BA3750854094791B938C9A39D1AB3 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569FB35F47257E6C64321232665AE9E /* SpectaDSL.m */; };
 		B810D39520924D943B8C57582055E2E3 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = BF64FA165FF610B155961E2A9A39E86E /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BAA9FF15E3CDCCD4F629B615D84FB14D /* UIScrollView+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 173465E8599493F4FF7615DED60C236E /* UIScrollView+Segment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAA9FF15E3CDCCD4F629B615D84FB14D /* UIView+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 173465E8599493F4FF7615DED60C236E /* UIView+Segment.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BB2A8F92E250631456F57DDB8B49659B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 650814D2F76A220CB0A4E523D452B709 /* View+MASAdditions.m */; };
 		BEB2F018C892160562C0173B92B53897 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 180797E5ECCF335CF63C62950A1938BC /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C325D3772074C3C7BBAEF2CC128F60D9 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4631ABCEB714152DD861E1EE869B1D0B /* Specta-dummy.m */; };
@@ -137,6 +137,8 @@
 		E92F1EE48D18206439EB73E2877779FF /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC179235EFDBB21A30353819CD0CE6A /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B9123DA152296862009622EA9EFE4199 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EBFB08C6B997D46C7A0E4AE716F12F68 /* SegmentTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C99F506AA57C536BAC102F96B9E561A /* SegmentTagView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC5C4866281A7AD4000E8EBC /* UICollectionViewLayout+RTL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5C4864281A7AD4000E8EBC /* UICollectionViewLayout+RTL.h */; };
+		EC5C4867281A7AD4000E8EBC /* UICollectionViewLayout+RTL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C4865281A7AD4000E8EBC /* UICollectionViewLayout+RTL.m */; };
 		EDEB7B2EB432D81F5421D0799548E784 /* NestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB2377B64D6AFDB095B1978B5EFA063 /* NestScrollView.m */; };
 		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ACDFFD40EB0336A9E722F3668CA5BE /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F3F9326210B995545EBA02D2AFDD87F7 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = F14675F2C30C834EB680F632BD1E0B87 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -201,9 +203,9 @@
 		0F566848AB3D74DDBE9EAB5161C83C18 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		102FAC5B7383579285F6AF47DC80B275 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		155F6D23AA21A4F67F36B8FA7192707E /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
-		173465E8599493F4FF7615DED60C236E /* UIScrollView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Segment.h"; path = "EMSegmentKit/Classes/UIScrollView+Segment.h"; sourceTree = "<group>"; };
+		173465E8599493F4FF7615DED60C236E /* UIView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Segment.h"; path = "EMSegmentKit/Classes/UIView+Segment.h"; sourceTree = "<group>"; };
 		17970283FB2A62E6685BFD64A99F38AA /* NestCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestCollectionView.h; path = EMSegmentKit/Classes/NestCollectionView.h; sourceTree = "<group>"; };
-		17B34F27E2B0A6165D84CBBC52902937 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		17B34F27E2B0A6165D84CBBC52902937 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		180797E5ECCF335CF63C62950A1938BC /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		1A6F69B214A44BE2A697F86A0ED6EAA9 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		1BE7B29E3B018F65BEF678EF052C2EB5 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
@@ -236,7 +238,7 @@
 		3E30F49474ABB3C25E3C217386BB9ECA /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		3EB7EC41689AB9D95107B27AB6F0A97C /* EMSegmentKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMSegmentKit-dummy.m"; sourceTree = "<group>"; };
 		40846C40F6FCD4AECD6F7D6BCEABF76D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		4216EF92A2DC84643A7014EDFAA6353B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4216EF92A2DC84643A7014EDFAA6353B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		42DDB28355E8758D10211B15EA50D22E /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		4536BA118B691CBA447EC8A247B0CA5A /* SegmentTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentTagView.m; path = EMSegmentKit/Classes/SegmentTagView.m; sourceTree = "<group>"; };
 		4631ABCEB714152DD861E1EE869B1D0B /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
@@ -272,8 +274,8 @@
 		7AA773E035BE03CEC33B908C0C0EF321 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		7BDDF74FD8B00CB8251D3A25FCA213FC /* EMSegmentKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSegmentKit-prefix.pch"; sourceTree = "<group>"; };
 		7E10F186DB3993F5075E6A22A5D71FC0 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
-		7E63BA9FA72D9586CE95C994FD7A1798 /* libPods-EMSegmentKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EMSegmentKit_Example.a"; path = "libPods-EMSegmentKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81802225453AB4BBBA834BE436207ED7 /* libPods-EMSegmentKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EMSegmentKit_Tests.a"; path = "libPods-EMSegmentKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E63BA9FA72D9586CE95C994FD7A1798 /* libPods-EMSegmentKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMSegmentKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81802225453AB4BBBA834BE436207ED7 /* libPods-EMSegmentKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMSegmentKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B2160D6845EC2A8FD55FF8E08A3DD0 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		8569FB35F47257E6C64321232665AE9E /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		85E19AD7DE9C911532987D8C974BD2F1 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
@@ -296,15 +298,15 @@
 		9A02D39F5DF8F676D91DB4A2AEC1A80F /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		9A2F75F0071E527FDC1433AB47EEAD5F /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		9D639FAFEA033CBF2C838F664474983D /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0CB5D8A10B997641D5F9ACC624D059 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		9F1338DA177EB0B6ACB6BBC329FD708B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		9FA02FFD1965F260C60BD7225B9CC93C /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
-		A1230604385BEC546CF434B8B984D27E /* UIScrollView+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Segment.m"; path = "EMSegmentKit/Classes/UIScrollView+Segment.m"; sourceTree = "<group>"; };
+		A1230604385BEC546CF434B8B984D27E /* UIView+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Segment.m"; path = "EMSegmentKit/Classes/UIView+Segment.m"; sourceTree = "<group>"; };
 		A1CB30A47F9E4FE31BA47E132893FB6A /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		A4C702A5D9869D21A668DE93E589080F /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
-		A634779ECA804B5A048256644DDE24FC /* libSpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSpecta.a; path = libSpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A636DE993D698281B55092F3AEF6359C /* EMSegmentKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EMSegmentKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A634779ECA804B5A048256644DDE24FC /* libSpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A636DE993D698281B55092F3AEF6359C /* EMSegmentKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EMSegmentKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8A990373BA90A95673A699D7FBD86A3 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		AAD0364F14F05B218D5ECE70E1314BEA /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		AAD4CEA113ED4D88DDDF5A731E359310 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
@@ -318,7 +320,7 @@
 		B9123DA152296862009622EA9EFE4199 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		B98E08223402C62071D5A20F61B2D9D0 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		BB5B1F4F4551448AD6BF48346F1B9C23 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
-		BC19A9AB85424F811E9D03F4DF5BCEF5 /* libExpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libExpecta.a; path = libExpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19A9AB85424F811E9D03F4DF5BCEF5 /* libExpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF34777B33B2B95784CEF3B2C0A1AF74 /* Pods-EMSegmentKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMSegmentKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF64FA165FF610B155961E2A9A39E86E /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		C48BA2C25748AF6619039040FBAB5643 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
@@ -342,7 +344,7 @@
 		E27803822F326F2E110072CE6B0570F0 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		E2CBA2048BDB6D7D551BF4460479BCD7 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		E3486C4E6DB99ADF482131601E36305F /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
-		E581A0012EE52CBA3F009309823DBE16 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E581A0012EE52CBA3F009309823DBE16 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C1D87B907F62B5BB2144D8D40EEE77 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		E5E4787C716E8E63D7B6F2D3A9833BB7 /* NestTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestTableView.h; path = EMSegmentKit/Classes/NestTableView.h; sourceTree = "<group>"; };
 		E8A477BCD4631D061BA35FA7D3DBEE89 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
@@ -350,6 +352,8 @@
 		E8BA35912D1D5D6259775B0BA8FB2915 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		E90D305CAB81DCAFA3536F7980BE9B13 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		EB3148B01ED5B823F406A3B020586222 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
+		EC5C4864281A7AD4000E8EBC /* UICollectionViewLayout+RTL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewLayout+RTL.h"; path = "EMSegmentKit/Classes/UICollectionViewLayout+RTL.h"; sourceTree = "<group>"; };
+		EC5C4865281A7AD4000E8EBC /* UICollectionViewLayout+RTL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewLayout+RTL.m"; path = "EMSegmentKit/Classes/UICollectionViewLayout+RTL.m"; sourceTree = "<group>"; };
 		EDB969654E843BCDFC6A1BC0E4D936DF /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		EDD1BDA68A17167840EDC62A08E63174 /* EMSegmentKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMSegmentKit.xcconfig; sourceTree = "<group>"; };
 		EF0EAE847E589CE1DF80052A34E3C6E2 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
@@ -361,7 +365,7 @@
 		F39CC67080732FA878511E33AA3BFBBF /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		F503BEC1727D1D6655C1D15B89991CEB /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		F8F76B8F343E788E3BE08F25AEDA4DD1 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
-		F98DD8DC2EFADFD144346D633395FF24 /* libEMSegmentKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEMSegmentKit.a; path = libEMSegmentKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98DD8DC2EFADFD144346D633395FF24 /* libEMSegmentKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEMSegmentKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD8A54B1600468EC3A0F79D7B2A1A11 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		FE0D41A874A98B9881A4E731E6AE7E11 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -491,8 +495,10 @@
 				466DA69731A7BCED2295EF9E21233461 /* SegmentProtocol.h */,
 				2C99F506AA57C536BAC102F96B9E561A /* SegmentTagView.h */,
 				4536BA118B691CBA447EC8A247B0CA5A /* SegmentTagView.m */,
-				173465E8599493F4FF7615DED60C236E /* UIScrollView+Segment.h */,
-				A1230604385BEC546CF434B8B984D27E /* UIScrollView+Segment.m */,
+				173465E8599493F4FF7615DED60C236E /* UIView+Segment.h */,
+				A1230604385BEC546CF434B8B984D27E /* UIView+Segment.m */,
+				EC5C4864281A7AD4000E8EBC /* UICollectionViewLayout+RTL.h */,
+				EC5C4865281A7AD4000E8EBC /* UICollectionViewLayout+RTL.m */,
 				27796F6B04B08103DD8393BF7C610FB9 /* Pod */,
 				6E96B5BABAE35CF6B439738ADF53AE81 /* Support Files */,
 			);
@@ -540,7 +546,6 @@
 				C6421FA12DD09E181730B19FE1455390 /* ViewController+MASAdditions.m */,
 				C4FCD298192E017255B572D965D30E83 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -597,7 +602,6 @@
 				F8F76B8F343E788E3BE08F25AEDA4DD1 /* XCTestCase+Specta.m */,
 				1D127586D93939B41F488CB4920BF03F /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -699,7 +703,6 @@
 				42DDB28355E8758D10211B15EA50D22E /* NSValue+Expecta.m */,
 				F65C07CC2D676DF2695BE12CC78AD581 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -782,11 +785,12 @@
 				F7018FF46887AE678ACBC3F36B038051 /* NestCollectionView.h in Headers */,
 				9F36CD81B1067208CB0843B30D196A1B /* NestScrollView.h in Headers */,
 				70D698C71E1D9E0EF122C1F118E9B7C8 /* NestTableView.h in Headers */,
+				EC5C4866281A7AD4000E8EBC /* UICollectionViewLayout+RTL.h in Headers */,
 				7CC505B9390A980135A5964FE2716673 /* NestViewHeader.h in Headers */,
 				46843E30B8354D011671570ADB187DF1 /* SegmentContainView.h in Headers */,
 				F9BB000F77FE62EBE208647E901A6291 /* SegmentProtocol.h in Headers */,
 				EBFB08C6B997D46C7A0E4AE716F12F68 /* SegmentTagView.h in Headers */,
-				BAA9FF15E3CDCCD4F629B615D84FB14D /* UIScrollView+Segment.h in Headers */,
+				BAA9FF15E3CDCCD4F629B615D84FB14D /* UIView+Segment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1006,13 +1010,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76673B23C700F5788B23763BE4A7F20 /* AnimationLayer.m in Sources */,
+				EC5C4867281A7AD4000E8EBC /* UICollectionViewLayout+RTL.m in Sources */,
 				30756786EFE729CE4C8570AC074AD2F9 /* EMSegmentKit-dummy.m in Sources */,
 				E8579D012FA0F410B11DAEA162AF7BBC /* NestCollectionView.m in Sources */,
 				EDEB7B2EB432D81F5421D0799548E784 /* NestScrollView.m in Sources */,
 				381C92DD3260298D9A3072A46F3A504A /* NestTableView.m in Sources */,
 				3EF69321711AB6E63854FE70BC7AE8C7 /* SegmentContainView.m in Sources */,
 				7E04A05666C9D9BCFE794ED5D2650995 /* SegmentTagView.m in Sources */,
-				7A1A48CBD6D8B5C98CF1E681750A149A /* UIScrollView+Segment.m in Sources */,
+				7A1A48CBD6D8B5C98CF1E681750A149A /* UIView+Segment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1377,8 +1382,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

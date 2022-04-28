@@ -212,6 +212,10 @@
         make.right.equalTo(self.contentView.mas_right).offset(-16.f);
         make.centerY.equalTo(self.contentView.mas_centerY);
     }];
+    
+    _textLabel.transform = CGAffineTransformMakeScale(-1.f, 1.f);
+    _detailTextLabel.transform = CGAffineTransformMakeScale(-1.f, 1.f);
+    self.contentView.transform = CGAffineTransformMakeScale(-1.f, 1.f);
 }
 
 @end
@@ -276,8 +280,8 @@
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     EMCollectSegmentCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass(EMCollectSegmentCell.class) forIndexPath:indexPath];
-    cell.textLabel.text = @"CollectionView";
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"第%ld个",(long)indexPath.row];
+    cell.textLabel.text = NSLocalizedString(@"collectionView_text", nil);
+    cell.detailTextLabel.text = [NSString stringWithFormat:NSLocalizedString(@"number.", nil),indexPath.row];
     return cell;
 }
 
@@ -307,8 +311,8 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     
     if (self) {
-        _titleArray = @[@"UIScrollView", @"UICollectionView"];
-        _viewArray = @[[[EMScrollSegmentView alloc] init],
+        _titleArray = @[NSLocalizedString(@"scorllView_text", nil), NSLocalizedString(@"collectionView_text", nil)];
+        _viewArray = @[[[EMCollectSegmentView alloc] init],
                        [[EMCollectSegmentView alloc] init]];
         
         [self addSubviews];
@@ -392,7 +396,7 @@
     _tableView = ({
         NestTableView *tableView = [[NestTableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
         tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, CGRectGetWidth(self.bounds), 128.f)];
-        tableView.tableHeaderView.backgroundColor = UIColor.cyanColor;
+        tableView.tableHeaderView.backgroundColor = UIColor.darkGrayColor;
         tableView.showsVerticalScrollIndicator = YES;
         tableView.maxOffsetPoint = 128.f;
         tableView.dataSource = self;
@@ -474,7 +478,7 @@
     });
     _contentView = ({
         UILabel *label = [[UILabel alloc] init];
-        label.text = @"NestScrollView";
+        label.text = NSLocalizedString(@"scorllView_text", nil);
         
         EMLayerView *tempView= [[EMLayerView alloc] init];
         tempView.backgroundColor = UIColor.redColor;
@@ -528,7 +532,7 @@
 }
 
 - (IBAction)refreshAction:(id)sender {
-    _titleArray = @[@"UIScrollView", @"UITableView", @"UICollectionView"];
+    _titleArray = @[NSLocalizedString(@"scorllView_text", nil), NSLocalizedString(@"tableView_text", nil), NSLocalizedString(@"collectionView_text", nil)];
     _viewArray = @[[[EMScrollSegmentView alloc] init],
                    [[EMTableSegmentView alloc] init],
                    [[EMCollectSegmentView alloc] init]];
@@ -537,7 +541,7 @@
 }
 
 - (IBAction)stopAction:(id)sender {
-    _titleArray = @[@"UICollectionView"];
+    _titleArray = @[NSLocalizedString(@"collectionView_text", nil)];
     _viewArray = @[[[EMCollectSegmentView alloc] init]];
     [_segmentTagView reloadData];
     [_segmentContainView reloadData];
