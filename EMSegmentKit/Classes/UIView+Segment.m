@@ -19,7 +19,7 @@ FIND:
 
     if ([tempVC isKindOfClass:UINavigationController.class]) {
         tempVC = ((UINavigationController *)tempVC).topViewController;
-        return tempVC;
+        goto FIND;
     }
     
     if ([NSStringFromClass(tempVC.class) isEqualToString:NSStringFromClass(UITabBarController.class)]) {
