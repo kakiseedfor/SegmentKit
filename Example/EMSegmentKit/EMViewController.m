@@ -204,18 +204,14 @@
 
 - (void)makeViewConstraints{
     [_textLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView.mas_left).offset(16.f);
+        make.leading.equalTo(self.contentView.mas_leading).offset(16.f);
         make.centerY.equalTo(self.contentView.mas_centerY);
     }];
     
     [_detailTextLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(self.contentView.mas_right).offset(-16.f);
+        make.trailing.equalTo(self.contentView.mas_trailing).offset(-16.f);
         make.centerY.equalTo(self.contentView.mas_centerY);
     }];
-    
-    _textLabel.transform = CGAffineTransformMakeScale(-1.f, 1.f);
-    _detailTextLabel.transform = CGAffineTransformMakeScale(-1.f, 1.f);
-    self.contentView.transform = CGAffineTransformMakeScale(-1.f, 1.f);
 }
 
 @end
@@ -341,12 +337,12 @@
 
 - (void)makeViewConstraints{
     [_segmentTagView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.equalTo(self.contentView);
+        make.leading.trailing.top.equalTo(self.contentView);
         make.height.mas_equalTo(48.f);
     }];
     
     [_segmentContainView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.bottom.equalTo(self.contentView);
+        make.leading.trailing.bottom.equalTo(self.contentView);
         make.top.equalTo(self.segmentTagView.mas_bottom);
     }];
 }
@@ -512,12 +508,12 @@
     }];
     
     [_contentView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.right.equalTo(self.scrollView.contentView);
+        make.top.leading.trailing.equalTo(self.scrollView.contentView);
         make.height.mas_equalTo(256.f);
     }];
     
     [_segmentTagView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.equalTo(self.scrollView.contentView);
+        make.leading.trailing.equalTo(self.scrollView.contentView);
         make.top.equalTo(self.contentView.mas_bottom);
         make.height.mas_equalTo(48.f);
     }];
@@ -526,7 +522,7 @@
     [_segmentContainView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(CGRectGetHeight(UIScreen.mainScreen.bounds) - 48.f - navStatusHeight);
         make.bottom.equalTo(self.scrollView.contentView.mas_bottom);
-        make.left.right.equalTo(self.scrollView.contentView);
+        make.leading.trailing.equalTo(self.scrollView.contentView);
         make.top.equalTo(self.segmentTagView.mas_bottom);
     }];
 }

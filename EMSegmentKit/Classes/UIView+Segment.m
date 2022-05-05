@@ -24,10 +24,7 @@ FIND:
     
     if ([NSStringFromClass(tempVC.class) isEqualToString:NSStringFromClass(UITabBarController.class)]) {
         tempVC = ((UITabBarController *)tempVC).selectedViewController;
-        if ([tempVC isKindOfClass:UINavigationController.class]) {
-            goto FIND;
-        }
-        return tempVC;
+        goto FIND;
     }
     
     return tempVC;

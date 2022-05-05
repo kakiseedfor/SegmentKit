@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController *)currentVC;
 
+- (UIViewController *)topVC;
+
 @end
 
 NS_ASSUME_NONNULL_END
